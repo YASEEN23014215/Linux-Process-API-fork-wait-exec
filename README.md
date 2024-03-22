@@ -59,10 +59,11 @@ int main(void)
 
 
 ##OUTPUT
+```
 The process id: 96
 The process id of parent function: 61
 
-
+```
 
 
 
@@ -103,12 +104,12 @@ int main() {
 
 
 ##OUTPUT
-
+```
 I am parent, my pid is 96
 I am child, my pid is 97
 My parent pid is: 96
 
-
+```
 
 
 
@@ -202,7 +203,7 @@ int main() {
 
 
 ##OUTPUT
-
+```
 PID   USER     TIME  COMMAND
     1 root      0:01 {init} /bin/sh /sbin/init
     2 root      0:00 [kthreadd]
@@ -275,7 +276,7 @@ PID   USER     TIME  COMMAND
 105 root      0:00 ps ax
 Child exited with status of 0
 Done.
-
+```
 
 
 
